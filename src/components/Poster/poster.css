@@ -1,0 +1,14 @@
+.poster{
+    width: 25%;
+    height: 500px;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.primary {background-color: #008CBA;}
+.secondary {background-color: #E7E7E7; color: black;}
+.success {background-color: #4CAF50;}
+.danger {background-color: #F44336;}
