@@ -2,9 +2,10 @@ import React from 'react';
 import './poster.css';
 
 const Poster = props => {
-    const { variant = 'primary', children, ...rest } = props
+    const { children, ...rest } = props;
+    
   return (
-    <div className={`poster ${variant}`} {...rest}>
+    <div className='poster' {...rest}>
         {children}
     </div>
   );
